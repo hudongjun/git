@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/head.css"/>
+	<link rel="stylesheet" href="../css/gerenzhongxin.css"/>
+	<script src="../javascript/open.js"></script>
+</head>
+<body>
+	<div class="head">
+		<div class="head-nr">
+			<div class="login"></div>
+			<ul class="nav"  id="nav">
+				<li class="show">个人中心</li>
+				<li>企业员工查询中心</li>
+				<li>HRO</li>
+				<li>猎头</li>
+				<li>首页</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="Bg"></div>
+	<div class="con">
+		<div class="top">
+			<div class="show">
+				<h2>HRO</h2>
+				<h4>HRO</h4>
+			</div>
+			<div>
+				<h2>猎头</h2>
+				<h4>HEAD HUNTER</h4>
+			</div>
+		</div>
+		<ul class="nr">
+			<li>
+				<div class="lefts">
+					<div class="title">HRO操作</div>
+					<div class="bot">
+						<div>
+							<p></p>
+							<h5>增减员明细</h5>
+						</div>
+						<div>
+							<p class="tu1"></p>
+							<h5>报销</h5>
+						</div>
+						<div>
+							<p class="tu2"></p>
+							<h5>工资表</h5>
+						</div>
+						<div>
+							<p class="tu3"></p>
+							<h5>上传空间</h5>
+						</div>
+					</div>
+				</div>
+				<div class="rights">
+					<div class="title">HRO操作</div>
+					<div class="bot">
+						<div>
+							<p class="tu4"></p>
+							<h5>增减员反馈</h5>
+						</div>
+						<div>
+							<p class="tu5"></p>
+							<h5>报销进度</h5>
+						</div>
+						<div>
+							<p class="tu6"></p>
+							<h5>员工名册</h5>
+						</div>
+						<div>
+							<p class="tu7"></p>
+							<h5>付款明细</h5>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="show1">
+				<div class="left2">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="right2">
+					<div class="zhiwei">
+						<span>职位名：</span>
+						<input type="text" placeholder="输入职位关键词，如:销售总监">
+					</div>
+					<input type="button" class="submit" value="提交">
+					<p>招聘工具</p>
+					<div class="hetong"></div>
+					<div class="Tjianli"></div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+	<div id="mask"></div>
+	<div class="box">
+		<div>
+			<img src="../images/mask_goin.png" alt="" class="img1">
+		</div>
+		<div>
+			<input type="button" value="下载合同模板">
+			<input type="button" value="上传合同"/>
+		</div>
+		<div class="guanbi">x</div>
+	</div>
+	
+	<script src="../javascript/jquery-1.9.0.min.js"></script>
+	<script>
+		$('.hetong').click(function(){
+			$('#mask').css('display','block');
+			$('.box').css('display','block');
+		})
+		$('.guanbi').click(function(){
+			$('#mask').css('display','none');
+			$('.box').css('display','none');
+		})
+	</script>
+
+	<div class="footer">
+		<div>
+			<p>关于我们</p>
+			<p>电话 <span>4000-390-903</span></p>
+		</div>
+	</div>
+	<div class="photo">
+		<div class="tu"><img src="../images/side_icon03.png" alt=""></div>
+		<span>4000-390-903</span>
+	</div>
+	<div class="code">
+		<img src="../images/r_icon1.png" alt="">
+		<div class="codes"></div>
+	</div>
+</body>
+</html>
